@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UserInputControlsinJava</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="i_have_agreed_to_the_terms_and_conditions">I have agreed to the Terms and Conditions</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_phone_number2">Enter Phone Number</string>
+    <string name="enter_password1">Enter Password</string>
+
+    <string-array name="Phone_Category">
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Home</item>
+        <item>Other</item>
+
+    </string-array>
+</resources>
