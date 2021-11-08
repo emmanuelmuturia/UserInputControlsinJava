@@ -16,6 +16,7 @@
 
     <TextView
         android:id="@+id/login"
+        android:textColorHint="#EC4A18"
         android:layout_width="200dp"
         android:layout_height="150dp"
         android:layout_marginStart="92dp"
@@ -23,6 +24,7 @@
         android:text="@string/login"
         android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EC4A18"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +32,7 @@
 
     <EditText
         android:id="@+id/editTextPhone"
+        android:backgroundTint="#EC4A18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -39,6 +42,8 @@
         android:inputType="phone"
         android:minHeight="48dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textColorHint="#EC4A18"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
@@ -47,13 +52,16 @@
         android:id="@+id/login_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="52dp"
+        android:backgroundTint="#EC4A18"
         android:ems="10"
         android:hint="@string/enter_password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textColorHint="#EC4A18"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
@@ -62,9 +70,12 @@
         android:id="@+id/login_button"
         android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="44dp"
         android:text="@string/login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        app:backgroundTint="#9A1414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_password" />
 
